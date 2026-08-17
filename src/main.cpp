@@ -81,7 +81,7 @@ void setup()
 void loop()
 {
   //LOCKING FROM LONG_Press (Remove it Later!!!)
-  if (locked) //Engaged to the Bottle Holder
+  if (locked) //Engaged to the Holder
   {
     //SPECIFIC FOR THE LOCKED MODE
     check_RFID(general_status);
